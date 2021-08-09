@@ -1,0 +1,51 @@
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: rgb(0, 255, 0);
+}
+
+h3 {
+  color: hsl(360, 100%, 100%);
+}
+
+body {
+  background-color: yellow;
+}
+
+a {
+  color: red;
+}
+
+img[src="images/headshot.png"] {
+  width: 10%;
+  border-style: none;
+}
+
+img[src="images/logo.jpg"] {
+  width: 5%;
+  border-style: dotted;
+  border-color: blue;
+  border-width: 2px;
+}
+
+img {
+  border-style: dashed;
+  border-color: orange;
+  border-width: 3px;
+  width: 10%;
+}
+
+.important:hover {
+  background-color:#0000FF;
+}
+
+.purple-text {
+  color: rgba(0, 0, 255, .5);
+}
+
+.lead-paragraph {
+  color:purple;
+  font-weight: bold;
+}
