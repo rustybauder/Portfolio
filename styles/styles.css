@@ -37,6 +37,8 @@ header ul li {
 header ul li a {
  text-decoration: none;
  color: black;
+ transition-property: font-size;
+ transition-duration: 1s;
 }
 li a.active {
  color: #000000;
@@ -45,6 +47,7 @@ li a.active {
 }
 li a:hover {
  color: #B6B6B6;
+ font-size: 30px;
 }
 
 
@@ -69,9 +72,22 @@ li a:hover {
 
 img[src="images/headshot.png"] {
   width: 10%;
+  transition-property: width, height;
+  transition-duration: 2s;
+}
+img[src="images/headshot.png"]:hover {
+  width: 15%;
+  height: 15%;
 }
 img[src="images/logo.jpg"] {
-  width: 5%;
+  width: 4%;
+  opacity: 50%;
+  transition-property: opacity;
+  transition-duration: 2s;
+}
+img[src="images/logo.jpg"]:hover {
+  width: 4%;
+  opacity: 100%
 }
 img {
   width: 10%;
