@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://kit.fontawesome.com/bd61e7a12c.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    
+    <header class="site-header-container">
+      <div class="header">
+        <h1 class="site-title">Russell Bauder</h1>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="gallery.html">Projects</a></li>
+          <li><a href="about-me.html">About Me</a></li>
+          <li><a href="contact-me.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+      <div class="form">
+    <h4>CONTACT ME</h4>
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John">
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" value="email@email.com"><br>
+    </form>
+    <label for="message">Message:</label><br>
+    <textarea id="message" rows="4" cols="50" name="comment">
+Enter message here...</textarea>
+    <form>
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile"><br><br>
+      <input type="checkbox" id="checkbox">
+      <label for="checkbox">Select this box if you wish to receive my nonexistent newsletter</label><br>
+      <input type="submit" value="SUBMIT">
+    </form>
+  </div>
   </body>
 </html>

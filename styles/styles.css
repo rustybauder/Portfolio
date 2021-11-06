@@ -50,8 +50,6 @@ li a:hover {
  color: #B6B6B6;
  font-size: 30px;
 }
-
-
 .body-container {
   display: flex;
   justify-content: space-between;
@@ -60,8 +58,6 @@ li a:hover {
   padding-top: 150px;
   padding-bottom: 100px;
 }
-
-
 .site-footer-wrapper {
   display: flex;
   justify-content: space-between;
@@ -69,8 +65,6 @@ li a:hover {
   flex-direction: column;
   padding: 2em 0;
 }
-
-
 img[src="images/headshot.png"] {
   width: 10%;
   transition-property: width, height;
@@ -92,4 +86,130 @@ img[src="images/logo.jpg"]:hover {
 }
 img {
   width: 10%;
+}
+.form {
+  float: left;
+  background-color: #f5f5f5;
+  padding: 18px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: thin;
+  color: #5a5a5c;
+}
+.form h4 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: 0;
+  color: #5a5a5c;
+  font-weight: bolder;
+}
+input[type="submit"] {
+  background-color: #5a5a5c;
+  text-align: center;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: thin;
+  height: 20px;
+}
+input[type="email"] {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: thin;
+  height: 20px;
+}
+input[type="file"] {
+  padding-bottom: 0px;
+}
+input[type="checkbox"] {
+  padding-top: 0px;
+}
+textarea {
+  width: 100%;
+  font-family: Arial;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: thin;
+}
+.span_1_of_12 {
+  width: 8.33%;
+}
+
+.span_2_of_12 {
+  width: 16.66%;
+}
+
+.span_3_of_12 {
+  width: 25%;
+}
+
+.span_4_of_12 {
+  width: 33.33%;
+}
+
+.span_5_of_12 {
+  width: 41.66%;
+}
+
+.span_6_of_12 {
+  width: 50%;
+}
+
+.span_7_of_12 {
+  width: 58.33%;
+}
+
+.span_8_of_12 {
+  width: 66.66%;
+}
+
+.span_9_of_12 {
+  width: 75%;
+}
+
+.span_10_of_12 {
+  width: 83.33%;
+}
+
+.span_11_of_12 {
+  width: 91.66%;
+}
+
+.span_12_of_12 {
+  width: 100%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col {
+    float: left;
+    padding: 5px;
 }
