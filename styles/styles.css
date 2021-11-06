@@ -131,6 +131,7 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 input[type="text"] {
   font-size: 18px;
@@ -150,11 +151,12 @@ input[type="email"] {
 }
 input[type="file"] {
   padding-bottom: 0px;
-  font-family: Raleway;
+  cursor: pointer;
 }
 input[type="checkbox"] {
   display: inline;
   padding-top: 0px;
+  cursor: pointer;
 }
 
 textarea {
