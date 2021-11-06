@@ -175,6 +175,9 @@ textarea {
   border-width: thin;
   margin-bottom: 10px;
 }
+.required {
+  margin-top: 20px;
+}
 .span_1_of_12 {
   width: 8.33%;
 }
